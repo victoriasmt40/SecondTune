@@ -1,0 +1,43 @@
+# Xcode
+#
+# gitignore contributors: remember to keep this file running tests against Xcode
+# projects both in and out of your private development environment.
+
+## User-specific
+*.xcuserdatad
+*.xcworkspace
+*.xbs G
+
+## Xcode
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.app
+*.dSYM
+
+## Swift Package Manager
+.build/
+Packages/
+*.xcodeproj
+*.xcworkspace
+*.xcodeworkspace
+/Package.resolved
+/Packages
+
+# Carthage
+Carthage/Build
+Carthage/Checkouts
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/test_output
+
+# Jazzy
+docs/
+
+# Rome
+Rome/
